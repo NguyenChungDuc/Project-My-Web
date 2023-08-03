@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@100;300;400&family=Satisfy&display=swap');
+:root {
+  --main-color: #01939c;
+  --text-opacity: #898a8e;
+  --white-text: #fff;
+  --black-text: #000;
+  --background: #12141d;
+  --button-border: 2px solid #fff;
+  --button-hover: 2px solid #01939c;
+  --button-background: transparent;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #888;
+    // border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#01939c 10%, #98eecc);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    // background: var(--main-color);
+  }
+}
+body {
+  background-color: var(--background);
+}

@@ -1,0 +1,100 @@
+.login {
+  width: 100%;
+  background: #12141d;
+  height: 100vh;
+  position: relative;
+  color: var(--white-text);
+}
+.login .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login .background img {
+  width: 850px;
+}
+.login .form-login {
+  position: absolute;
+  width: 450px;
+  min-height: 450px;
+  border-radius: 10px;
+  background: #1d1a3c;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login .form-login h1 {
+  text-align: center;
+  padding: 40px 0 10px 0;
+  text-transform: uppercase;
+  color: var (--white-text);
+}
+
+.login .form-login .input-log label {
+  display: block;
+  padding-left: 45px;
+}
+.login .form-login .input-log input {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--white-text);
+  /* color: var(--black); */
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 0 10px;
+}
+.login .form-login .input-log input:focus {
+  border: 1px solid #01939c;
+}
+.login .form-login .input-log button {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: var(--button-border);
+  background-color: transparent;
+  color: var(--text-opacity);
+  font-size: 18px;
+}
+.login .form-login .input-log button:hover {
+  cursor: pointer;
+  border: var(--button-hover);
+  color: var(--white-text);
+}
+.login .form-login .input-log .error {
+  padding: 6px 0 6px 45px;
+  color: var(--text-opacity);
+  font-size: 15px;
+  color: #ff0060;
+}
+.login .form-login .function-log {
+  width: 80%;
+  margin: 0 auto;
+}
+.login .form-login .function-log .form-function {
+  display: flex;
+  justify-content: space-between;
+}
+.login .form-login .function-log .form-function p {
+  font-size: 13px;
+  //   color: var(--text-opacity);
+}
+.login .form-login .function-log .form-function .resert-pass {
+  color: rgb(54, 54, 193);
+  transition: all 0.5s;
+}
+.login .form-login .function-log .form-function .resert-pass:hover {
+  cursor: pointer;
+  color: rgb(192, 40, 40);
+}
+.login .form-login .function-log h3 {
+  margin: 20px 0;
+  text-align: center;
+  color: #01939c;
+}

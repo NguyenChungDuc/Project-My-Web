@@ -1,0 +1,93 @@
+.wrapper {
+  color: var(--white-text);
+}
+
+.wrapper h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 35px;
+}
+.wrapper h3 {
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0.6;
+  letter-spacing: 2px;
+}
+.wrapper h3 a {
+  color: aquamarine;
+}
+.wrapper .form-pricing {
+  justify-content: space-around;
+  margin-top: 60px;
+  display: flex;
+}
+.wrapper .block-price {
+  width: 25%;
+  //   text-align: center;
+  background: #1e2028;
+  border-radius: 20px;
+  padding: 30px 45px;
+}
+.wrapper .block-price h4 {
+  opacity: 0.5;
+  font-size: 13px;
+  padding: 5px 0;
+}
+.wrapper .block-price h2 {
+  font-size: 35px;
+}
+.wrapper .block-price h2 span {
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: normal;
+}
+.wrapper .block-price .study-list {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.wrapper .block-price .study-list .icon-check {
+  color: blue;
+  padding-right: 15px;
+}
+.wrapper .block-price .study-list .icon-time {
+  color: gray;
+  padding-right: 15px;
+}
+.wrapper .order {
+  width: 1400px;
+  height: 150px;
+  background-color: #1d9fa7;
+  display: block;
+  margin: 50px auto 50px auto;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+}
+.wrapper .order .form-order {
+  width: 85%;
+}
+.wrapper .order .form-order h5 {
+  font-size: 30px;
+}
+.wrapper .order .form-order p {
+  font-size: 18px;
+  opacity: 0.5;
+  padding: 10px 0;
+}
+.wrapper .order .button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper .order .button button {
+  padding: 7px 15px;
+  background-color: transparent;
+  border: var(--button-border);
+  border-radius: 10px;
+  color: var(--white-text);
+}
+.wrapper .order .button button:hover {
+  border: var(--button-hover);
+  cursor: pointer;
+}

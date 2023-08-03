@@ -1,0 +1,233 @@
+.wrapper {
+  width: 100px;
+}
+.icon {
+  font-size: 40px;
+  color: var(--main-color);
+  position: fixed;
+  right: 4%;
+  bottom: 7%;
+  // animation: rote 2.5s infinite linear;
+}
+
+.icon:hover {
+  cursor: pointer;
+  animation: rotate 2s;
+  // padding: 10px;
+  // background-color: blue;
+  border-radius: 50px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  49% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wrapper .helo h1 {
+  color: var(--text-opacity);
+  font-size: 13px;
+  margin-top: -30px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.donate {
+  display: none;
+}
+.donate.active {
+  display: block;
+}
+.donate .form-donate {
+  padding: 20px 35px;
+  position: fixed;
+  top: 25%;
+  border-radius: 10px;
+  right: 7%;
+  width: 400px;
+  height: 450px;
+  background: var(--white-text);
+  color: black;
+}
+.donate .form-donate h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.donate .form-donate h1 span {
+  color: var(--main-color);
+}
+.donate .form-donate .animation-donate {
+  position: relative;
+  width: 350px;
+  height: 70px;
+}
+.donate .form-donate .animation-donate .loader {
+  width: 350px;
+  height: 70px;
+  font-size: 25px;
+  text-align: center;
+}
+.t {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 0.2s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.h {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 0.4s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.a {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 0.6s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.n {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 0.8s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.k {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 1s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.n {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 1.2s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px var(--text-opacity);
+}
+
+.y {
+  color: black;
+  opacity: 0;
+  animation: pass 2s ease-in-out infinite;
+  animation-delay: 1.4s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px #919191;
+}
+
+.o {
+  color: black;
+  opacity: 0;
+  animation: pass1 2s ease-in-out infinite;
+  animation-delay: 1.6s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px #919191;
+}
+
+.u {
+  color: black;
+  opacity: 0;
+  animation: pass1 2s ease-in-out infinite;
+  animation-delay: 2s;
+  letter-spacing: 0.5em;
+  text-shadow: 2px 2px 3px #919191;
+}
+
+@keyframes pass {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pass1 {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.donate .form-donate form input {
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  color: black;
+}
+.donate .form-donate form input:focus {
+  border: 1px solid gray;
+}
+.donate .form-donate form textarea {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 10px 0;
+  resize: none;
+  color: black;
+}
+.donate .form-donate form textarea:focus {
+  border: 1px solid gray;
+}
+.donate .form-donate form button {
+  width: 100%;
+  padding: 10px 0;
+  border: var(--button-boder);
+  background-color: var(--main-color);
+  border-radius: 10px;
+  color: var(--white-text);
+  font-size: 17px;
+  margin: 10px 0;
+}
+.donate .form-donate form button:hover {
+  cursor: pointer;
+
+  color: var(--black-text);
+  border: var(--button-hover);
+  background-color: transparent;
+}
